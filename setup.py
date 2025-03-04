@@ -3,13 +3,14 @@ from setuptools import setup, find_packages
 
 setup(
     name='zengrad',  
-    version='1.0.6',
+    version='1.0.7',
     description='ZenGrad: A gradient descent method focused on stability, smooth updates, and efficient, adaptive learning.',
     long_description=open('README.md', encoding='utf-8').read(),
     long_description_content_type='text/markdown',
     author='Murumuri Naga Poorni',
     author_email='poorni.m0405@gmail.com',
     packages=find_packages(),
+    url='https://github.com/Poorni-Murumuri/ZenGrad',
     license="Apache-2.0",
     install_requires=[     
         'tensorflow>=2.10.0',
